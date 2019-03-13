@@ -1,6 +1,41 @@
 // Numbered Triangle - Dcoder Algo Yo Easy
 // author evg1n
 
+/*
+Problem statement
+=================
+You need to print this pattern upto N.
+For N = 4,
+1
+1 2
+1 2 3
+1 2 3 4
+
+Input
+=====
+A single positive integer N.
+
+Output
+======
+Numbered Triangle upto N.
+Do not leave trailing whitespaces at the end of each line.
+
+Constraint
+==========
+1 ≤ N ≤ 9
+
+Sample Input
+============
+3
+Sample Output
+=============
+1
+1 2
+1 2 3
+*/
+
+// Solution:
+
 // get custom input
 process.stdin.resume();
 
