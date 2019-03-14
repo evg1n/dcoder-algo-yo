@@ -31,14 +31,19 @@ No
 */
 
 // Solution:
+
+// get custom input
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
 process.stdin.on('data', data => passInput(data));
 
+// pass input
 const passInput = (data) => {
+// divide array into two seperate lines
     let arrayLength = data.split("\n")[0];
+// parse integer from elements of array
     let array = data.split("\n")[1].split(" ").map(x => parseInt(x));
-    
+// check if array length is correct
     if (array.length != arrayLength || arrayLength < 1 || arrayLength > 100) {
         console.log("error")
     } else{
@@ -46,6 +51,7 @@ const passInput = (data) => {
     }
 }
 
+// check if array is special or not
 const special = (inputArray) => {
     let message = "";
     let regularArray = inputArray.filter(check);
@@ -57,6 +63,8 @@ const special = (inputArray) => {
     }
     console.log(message);
 }
+
+//check if array elements meet requirements
 
 const check = (unit) => {
     if (unit < 0 || unit > 100) {
