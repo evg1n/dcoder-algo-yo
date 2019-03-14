@@ -1,4 +1,4 @@
-/ Archie And His Homework - Dcoder Algo Yo Easy
+// Text Editor - Dcoder Algo Yo Easy
 // author evg1n
 
 /*
